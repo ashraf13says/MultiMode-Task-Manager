@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_sort"
+        android:title="Sort Tasks"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/menu_sort_priority" android:title="By Priority" />
+            <item android:id="@+id/id_sort_due_date" android:title="By Due Date" />
+            <item android:id="@+id/menu_sort_name" android:title="By Name" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_theme"
+        android:title="Change Theme"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/menu_theme_light" android:title="Light Theme" />
+            <item android:id="@+id/menu_theme_dark" android:title="Dark Theme" />
+            <item android:id="@+id/menu_theme_high_contrast" android:title="System Default" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Logout"
+        android:icon="@drawable/power_settings_new"  app:showAsAction="always" />
+
+</menu>
